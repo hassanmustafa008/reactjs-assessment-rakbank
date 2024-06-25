@@ -1,0 +1,36 @@
+{
+  "steps": [
+    {
+      "title": "How was your weekend?",
+      "options": [
+        { "icon": "👍", "label": "Good", "value": "good" },
+        { "icon": "🤔", "label": "Okay", "value": "okay" },
+        { "icon": "👎", "label": "Bad", "value": "bad" }
+      ]
+    },
+    {
+      "title": "How was your experience with our customer service?",
+      "options": [
+        { "icon": "👍", "label": "Good", "value": "good" },
+        { "icon": "🤔", "label": "Okay", "value": "okay" },
+        { "icon": "👎", "label": "Bad", "value": "bad" }
+      ]
+    },
+    {
+      "title": "How was your experience with our customer service?",
+      "options": [
+        { "icon": "👍", "label": "Good", "value": "good" },
+        { "icon": "🤔", "label": "Okay", "value": "okay" },
+        { "icon": "👎", "label": "Bad", "value": "bad" }
+      ]
+    },
+    {
+      "title": "How satisfied are you with the delivery time of your order?",
+      "options": [
+        { "icon": "👍", "label": "Good", "value": "good" },
+        { "icon": "🤔", "label": "Okay", "value": "okay" },
+        { "icon": "👎", "label": "Bad", "value": "bad" }
+      ]
+    }
+  ]
+}
