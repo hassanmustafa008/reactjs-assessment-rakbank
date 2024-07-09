@@ -15,7 +15,7 @@ const VerticalCarousel: React.FC = () => {
 
   useEffect(() => {
     dispatch(setQuestions(STEPS.steps));
-  }, [dispatch]);
+  }, []);
 
   const handleOptionClick = (value: string) => {
     dispatch(handleNextStep({ [currentStep]: value }));

@@ -9,7 +9,7 @@ interface OptionProps {
 const Option: React.FC<OptionProps> = ({ option, onOptionClick }) => {
   return (
     <div
-      className={`relative group flex items-center justify-center p-4 cursor-pointer rounded-lg`}
+      className={`relative group flex items-center justify-center p-4 cursor-pointer`}
       onClick={() => onOptionClick(option.value)}
     >
       <span className="text-6xl">{option.icon}</span>

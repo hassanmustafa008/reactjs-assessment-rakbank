@@ -16,7 +16,7 @@ const Step: React.FC<IStepProps> = ({ step, onOptionClick }) => {
 
   useEffect(() => {
     setAnimate(true);
-    const timer = setTimeout(() => setAnimate(false), 500); // Duration of the animation
+    const timer = setTimeout(() => setAnimate(false), 500);
     return () => clearTimeout(timer);
   }, [currentStep]);
 
